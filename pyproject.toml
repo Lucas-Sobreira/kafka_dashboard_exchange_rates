@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "kafka-dash-stream"
+version = "0.1.0"
+description = ""
+authors = ["Lucas-Sobreira <lucas-andrade2011@live.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+currencyapicom = "^0.1.1"
+python-dotenv = "^1.0.1"
+confluent-kafka = "^2.6.0"
+sqlalchemy = "^2.0.36"
+pandas = "^2.2.3"
+psycopg2-binary = "^2.9.10"
+streamlit = "^1.39.0"
+plotly = "^5.24.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
